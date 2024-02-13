@@ -42,14 +42,14 @@ class _LoginViewState extends State<LoginView> {
             enableSuggestions: false,
             autocorrect: false,
             keyboardType: TextInputType.emailAddress,
-            decoration: InputDecoration(hintText: "Enter your email"),
+            decoration: const InputDecoration(hintText: "Enter your email"),
           ),
           TextField(
             obscureText: true,
             enableSuggestions: false,
             autocorrect: false,
             controller: _password,
-            decoration: InputDecoration(hintText: "Enter your password"),
+            decoration: const InputDecoration(hintText: "Enter your password"),
           ),
           TextButton(
             onPressed: () async {
@@ -72,14 +72,14 @@ class _LoginViewState extends State<LoginView> {
                 }
               }
             },
-            child: Text("Login"),
+            child: const Text("Login"),
           ),
           TextButton(
               onPressed: () {
                 Navigator.of(context)
                     .pushNamedAndRemoveUntil("/register/", (route) => false);
               },
-              child: Text("Register!"))
+              child: const Text("Register!"))
         ],
       ),
     );

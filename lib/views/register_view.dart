@@ -42,14 +42,14 @@ class _RegisterViewState extends State<RegisterView> {
             enableSuggestions: false,
             autocorrect: false,
             keyboardType: TextInputType.emailAddress,
-            decoration: InputDecoration(hintText: "Enter your email"),
+            decoration: const InputDecoration(hintText: "Enter your email"),
           ),
           TextField(
             obscureText: true,
             enableSuggestions: false,
             autocorrect: false,
             controller: _password,
-            decoration: InputDecoration(hintText: "Enter your password"),
+            decoration: const InputDecoration(hintText: "Enter your password"),
           ),
           TextButton(
             onPressed: () async {
@@ -70,14 +70,14 @@ class _RegisterViewState extends State<RegisterView> {
                 }
               }
             },
-            child: Text("Register"),
+            child: const Text("Register"),
           ),
           TextButton(
               onPressed: () {
                 Navigator.of(context)
                     .pushNamedAndRemoveUntil("/login/", (route) => false);
               },
-              child: Text("Login"))
+              child: const Text("Login"))
         ],
       ),
     );
