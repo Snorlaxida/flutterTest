@@ -71,10 +71,10 @@ class _LoginViewState extends State<LoginView> {
                 } else if (e.code == "wrong-password") {
                   await showErrorDialog(context, "Wrong password!");
                 } else {
-                  showErrorDialog(context, "Error: ${e.code}");
+                  await showErrorDialog(context, "Error: ${e.code}");
                 }
               } catch (e) {
-                showErrorDialog(context, e.toString());
+                await showErrorDialog(context, e.toString());
               }
             },
             child: const Text("Login"),
