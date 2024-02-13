@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firetest/constants/routes.dart';
 import 'package:firetest/ulities/show_error_dialog.dart';
