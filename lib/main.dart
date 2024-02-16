@@ -3,7 +3,8 @@
 import 'package:firetest/constants/routes.dart';
 import 'package:firetest/services/auth/auth_service.dart';
 import 'package:firetest/views/login_view.dart';
-import 'package:firetest/views/notes_view.dart';
+import 'package:firetest/views/notes/new_note_view.dart';
+import 'package:firetest/views/notes/notes_view.dart';
 import 'package:firetest/views/register_view.dart';
 import 'package:firetest/views/verify_email.dart';
 import 'package:flutter/material.dart';
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         registerRoute: (context) => const RegisterView(),
         notesRoute: (context) => const NotesView(),
         verifyEmailRoute: (context) => const VerifyEmailView(),
+        newNoteRoute: (context) => const NewNoteView(),
       },
     );
   }
