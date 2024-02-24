@@ -3,7 +3,7 @@
 import 'package:firetest/constants/routes.dart';
 import 'package:firetest/services/auth/auth_exceptions.dart';
 import 'package:firetest/services/auth/auth_service.dart';
-import 'package:firetest/ulities/dialogs/error_dialog.dart';
+import 'package:firetest/utilities/dialogs/error_dialog.dart';
 import 'package:flutter/material.dart';
 
 class RegisterView extends StatefulWidget {

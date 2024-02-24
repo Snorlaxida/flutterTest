@@ -1,4 +1,4 @@
-import 'package:firetest/ulities/dialogs/generic_dialog.dart';
+import 'package:firetest/utilities/dialogs/generic_dialog.dart';
 import 'package:flutter/widgets.dart';
 
 Future<bool> showLogOutDialog(BuildContext context) {
