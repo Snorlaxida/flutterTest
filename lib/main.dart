@@ -1,8 +1,6 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:bloc/bloc.dart';
 import 'package:firetest/constants/routes.dart';
-import 'package:firetest/services/auth/auth_service.dart';
 import 'package:firetest/services/auth/bloc/auth_bloc.dart';
 import 'package:firetest/services/auth/bloc/auth_event.dart';
 import 'package:firetest/services/auth/bloc/auth_state.dart';
