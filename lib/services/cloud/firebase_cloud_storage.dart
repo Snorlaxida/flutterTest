@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firetest/services/cloud/cloud_note.dart';
-import 'package:firetest/services/cloud/cloud_storage_constants.dart';
-import 'package:firetest/services/cloud/cloud_storage_exceptions.dart';
+import 'package:noteme/services/cloud/cloud_note.dart';
+import 'package:noteme/services/cloud/cloud_storage_constants.dart';
+import 'package:noteme/services/cloud/cloud_storage_exceptions.dart';
 
 class FirebaseCloudStorage {
   final notes = FirebaseFirestore.instance.collection("notes");

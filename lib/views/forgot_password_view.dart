@@ -1,10 +1,10 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:firetest/services/auth/bloc/auth_bloc.dart';
-import 'package:firetest/services/auth/bloc/auth_event.dart';
-import 'package:firetest/services/auth/bloc/auth_state.dart';
-import 'package:firetest/utilities/dialogs/error_dialog.dart';
-import 'package:firetest/utilities/dialogs/password_reset_email_sent_dialog.dart';
+import 'package:noteme/services/auth/bloc/auth_bloc.dart';
+import 'package:noteme/services/auth/bloc/auth_event.dart';
+import 'package:noteme/services/auth/bloc/auth_state.dart';
+import 'package:noteme/utilities/dialogs/error_dialog.dart';
+import 'package:noteme/utilities/dialogs/password_reset_email_sent_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

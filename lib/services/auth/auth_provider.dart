@@ -1,4 +1,4 @@
-import 'package:firetest/services/auth/auth_user.dart';
+import 'package:noteme/services/auth/auth_user.dart';
 
 abstract class AuthProvider {
   Future<void> initialize();

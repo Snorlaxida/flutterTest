@@ -63,6 +63,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '402999802327',
     projectId: 'firetest-c3861',
     storageBucket: 'firetest-c3861.appspot.com',
-    iosBundleId: 'com.example.firetest',
+    iosBundleId: 'com.snrlx.noteme',
   );
 }

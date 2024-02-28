@@ -1,8 +1,8 @@
-import 'package:firetest/services/auth/auth_service.dart';
-import 'package:firetest/services/cloud/cloud_note.dart';
-import 'package:firetest/services/cloud/firebase_cloud_storage.dart';
-import 'package:firetest/utilities/dialogs/cannot_share_empty_note_dialog.dart';
-import 'package:firetest/utilities/generics/get_arguments.dart';
+import 'package:noteme/services/auth/auth_service.dart';
+import 'package:noteme/services/cloud/cloud_note.dart';
+import 'package:noteme/services/cloud/firebase_cloud_storage.dart';
+import 'package:noteme/utilities/dialogs/cannot_share_empty_note_dialog.dart';
+import 'package:noteme/utilities/generics/get_arguments.dart';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 

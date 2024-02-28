@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:firetest/services/auth/auth_user.dart';
+import 'package:noteme/services/auth/auth_user.dart';
 import 'package:flutter/foundation.dart' show immutable;
 
 @immutable

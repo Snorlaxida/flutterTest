@@ -1,8 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firetest/firebase_options.dart';
-import 'package:firetest/services/auth/auth_exceptions.dart';
-import 'package:firetest/services/auth/auth_provider.dart';
-import 'package:firetest/services/auth/auth_user.dart';
+import 'package:noteme/firebase_options.dart';
+import 'package:noteme/services/auth/auth_exceptions.dart';
+import 'package:noteme/services/auth/auth_provider.dart';
+import 'package:noteme/services/auth/auth_user.dart';
 
 import 'package:firebase_auth/firebase_auth.dart'
     show FirebaseAuth, FirebaseAuthException;

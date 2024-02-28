@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:firetest/helpers/loading/loading_screen_controller.dart';
+import 'package:noteme/helpers/loading/loading_screen_controller.dart';
 import 'package:flutter/material.dart';
 
 class LoadingScreen {

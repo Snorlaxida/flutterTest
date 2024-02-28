@@ -1,17 +1,17 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:firetest/constants/routes.dart';
-import 'package:firetest/helpers/loading/loading_screen.dart';
-import 'package:firetest/services/auth/bloc/auth_bloc.dart';
-import 'package:firetest/services/auth/bloc/auth_event.dart';
-import 'package:firetest/services/auth/bloc/auth_state.dart';
-import 'package:firetest/services/auth/firebase_auth_provider.dart';
-import 'package:firetest/views/forgot_password_view.dart';
-import 'package:firetest/views/login_view.dart';
-import 'package:firetest/views/notes/create_update_note_view.dart';
-import 'package:firetest/views/notes/notes_view.dart';
-import 'package:firetest/views/register_view.dart';
-import 'package:firetest/views/verify_email.dart';
+import 'package:noteme/constants/routes.dart';
+import 'package:noteme/helpers/loading/loading_screen.dart';
+import 'package:noteme/services/auth/bloc/auth_bloc.dart';
+import 'package:noteme/services/auth/bloc/auth_event.dart';
+import 'package:noteme/services/auth/bloc/auth_state.dart';
+import 'package:noteme/services/auth/firebase_auth_provider.dart';
+import 'package:noteme/views/forgot_password_view.dart';
+import 'package:noteme/views/login_view.dart';
+import 'package:noteme/views/notes/create_update_note_view.dart';
+import 'package:noteme/views/notes/notes_view.dart';
+import 'package:noteme/views/register_view.dart';
+import 'package:noteme/views/verify_email.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

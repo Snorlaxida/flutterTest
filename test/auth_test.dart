@@ -1,6 +1,6 @@
-import 'package:firetest/services/auth/auth_exceptions.dart';
-import 'package:firetest/services/auth/auth_provider.dart';
-import 'package:firetest/services/auth/auth_user.dart';
+import 'package:noteme/services/auth/auth_exceptions.dart';
+import 'package:noteme/services/auth/auth_provider.dart';
+import 'package:noteme/services/auth/auth_user.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -1,6 +1,6 @@
-import 'package:firetest/services/auth/auth_provider.dart';
-import 'package:firetest/services/auth/auth_user.dart';
-import 'package:firetest/services/auth/firebase_auth_provider.dart';
+import 'package:noteme/services/auth/auth_provider.dart';
+import 'package:noteme/services/auth/auth_user.dart';
+import 'package:noteme/services/auth/firebase_auth_provider.dart';
 
 class AuthService implements AuthProvider {
   final AuthProvider provider;

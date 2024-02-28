@@ -1,5 +1,5 @@
-import 'package:firetest/services/cloud/cloud_note.dart';
-import 'package:firetest/utilities/dialogs/delete_dialog.dart';
+import 'package:noteme/services/cloud/cloud_note.dart';
+import 'package:noteme/utilities/dialogs/delete_dialog.dart';
 import 'package:flutter/material.dart';
 
 typedef NoteCallback = void Function(CloudNote note);

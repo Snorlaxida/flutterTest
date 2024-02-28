@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
-import 'package:firetest/services/auth/auth_provider.dart';
-import 'package:firetest/services/auth/bloc/auth_event.dart';
-import 'package:firetest/services/auth/bloc/auth_state.dart';
+import 'package:noteme/services/auth/auth_provider.dart';
+import 'package:noteme/services/auth/bloc/auth_event.dart';
+import 'package:noteme/services/auth/bloc/auth_state.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   AuthBloc(AuthProvider provider)

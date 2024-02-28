@@ -1,4 +1,4 @@
-import 'package:firetest/utilities/dialogs/generic_dialog.dart';
+import 'package:noteme/utilities/dialogs/generic_dialog.dart';
 import 'package:flutter/material.dart';
 
 Future<void> showCannotShareEmptyNoteDialog(BuildContext context) {
